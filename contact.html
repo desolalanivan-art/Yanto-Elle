@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- HTML file: ayos ng content at mga seksiyon ng pahinang ito. -->
+<html lang="en">
+<head>
+  <!-- Pangunahing impormasyon para sa browser at mobile screen -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#800020">
+  <title>Adrianne Vielle Bulanhagui | Contact</title>
+  <!-- Kinukuha ng HTML ang disenyo mula sa hiwalay na CSS file -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Palamuti sa background para magkaroon ng malambot na gray at maroon glow -->
+  <div class="background-glow" aria-hidden="true"></div>
+  <!-- Uloob ng header: logo at menu na ginagamit sa lahat ng pahina -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Adrianne Vielle Bulanhagui - Home"><span class="brand-name">ADRIANNE VIELLE BULANHAGUI<small>ACT-APP DEV</small></span></a>
+    <nav class="navbar" aria-label="Pangunahing menu">
+      <a href="index.html" class="">Home</a>
+      <a href="about.html" class="">About</a>
+      <a href="blog.html" class="">Blog</a>
+      <a href="gallery.html" class="">Gallery</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <!-- Panimula ng contact page -->
+    <section class="page-intro container"><p class="eyebrow">SAY HELLO</p><h1>Let’s start a <span>conversation.</span></h1><p>Do you have any questions or simply want to get in touch? Feel free to contact me here..</p></section>
+    <!-- Contact details at message form na magkatabi sa malalaking screen -->
+    <section class="container contact-layout"><div class="glass-panel contact-panel"><p class="eyebrow">FIND ME ONLINE</p><h2>Let’s connect<span class="cyan">.</span></h2><p class="section-description">You can find me on these platforms.</p>
+      <a class="contact-link" href="mailto:adriannbulanhagui2008@gmail.com"><span class="contact-icon">✉</span><span><small>EMAIL</small><strong>adriannbulanhagui2008@gmail.com</strong></span><b>↗</b></a>
+      <a class="contact-link" href="https://www.facebook.com/share/1DQiPuQh55/" target="_blank" rel="noopener noreferrer"><span class="contact-icon">f</span><span><small>FACEBOOK</small><strong>Visit My Facebook profile</strong></span><b>↗</b></a>
+      <a class="contact-link" href="https://www.instagram.com/deseulle?xtok=YjJrbTJmbHBrMm4z" target="_blank" rel="noopener noreferrer"><span class="contact-icon">◎</span><span><small>INSTAGRAM</small><strong>Visit My Instagram profile</strong></span><b>↗</b></a>
+    </div>
+    <!-- Form para sa pangalan, email, at mensahe; kailangan ng server para aktuwal na magpadala -->
+    <form class="glass-panel contact-panel contact-form" action="#" method="post"><p class="eyebrow">DROP A NOTE</p><h2>Send a message<span class="cyan">.</span></h2><label for="name">Pangalan mo</label><input id="name" name="name" type="text" placeholder="Hal. Juan" required><label for="email">Email address mo</label><input id="email" name="email" type="email" placeholder="ikaw@example.com" required><label for="message">Mensahe</label><textarea id="message" name="message" rows="5" placeholder="Isulat ang mensahe mo rito..." required></textarea><button class="button button-primary" type="submit">Ipadala ang mensahe ↗</button><p class="form-note">Paalala: Hindi maipapadala ang mensahe, isa lang itong example.</p></form></section>
+  </main>
+  <!-- Footer: impormasyon sa ibabang bahagi ng bawat pahina -->
+  <footer class="site-footer">
+    <a class="footer-brand" href="index.html">Adi<span>.</span></a>
+    <p>© 2026 Adrianne Vielle Bulanhagui</p>
+  </footer>
+</body>
+</html>
